@@ -20,7 +20,6 @@ public class Converter {
 
     // Converts an array of files into new files with specified type ans sizes. New images saves as 
     // thumbnail_filename and placed into the same folder as the original image.
-	 
     public String convertTo(){
             try {
                 for(int i = 0; i < files.length; i++){
