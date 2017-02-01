@@ -1,5 +1,6 @@
 package com.company;
 
+
 import javax.swing.*;
 
 public class Application {
@@ -7,7 +8,7 @@ public class Application {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                GUI gui = new GUI();
+                Gui gui = new Gui();
             }
         });
     }
