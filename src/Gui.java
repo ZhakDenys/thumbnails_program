@@ -124,7 +124,7 @@ public class Gui implements ActionListener {
         }
         }
 
-    // The conversion thread which handles converting images
+    // The conversion thread which handles converting images.
     public class TransformationThread extends Thread{
         Converter converter;
 
